@@ -9,9 +9,8 @@ Using demographics and topic distributions of Facebook groups this projects atte
 
 | File | Description|
 |--------|:-----------|
-| random_forest_all_predictors_v2.py | Script performing Random Forest model with varying dependent and independent predictors without grid search |
-| random_forest_gridsearch_v3.py | Random Forest using gridsearch on better models|
-| random_forest_finalfeatures.py | Models with most important features |
+| random_forest_all_predictors_v3.py | Script performing Random Forest model with varying dependent and independent predictors without grid search |
+| random_forest_finalfeatures_v2.py | Models with most important features |
 
 ## Data description
 
@@ -31,13 +30,14 @@ The file used as input can be found at grundtvig and is called . It contains 136
 ```
 cd random_forest_fb # Change directory to the repository folder
 
-pip install -r requirements.txt
+bash create_venv.sh 
+
+source /bin/activate
 
 ```
 Run script by typing
 ```
-
-python3 random_forest_gridsearch_v2.py # Run script
+python3 random_forest_all_predictors_v3.py # Run script
 ```
 
 To deactivate and remove the environment, the following commands need to be executed:
