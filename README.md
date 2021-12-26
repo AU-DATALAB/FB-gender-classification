@@ -28,11 +28,11 @@ The file used as input can be found at grundtvig and is called . It contains 136
 #### SETUP
 
 ```
-cd random_forest_fb # Change directory to the repository folder
+cd FB-gender-classification # Change directory to the repository folder
 
 bash create_venv.sh 
 
-source /bin/activate
+source FB_RANDOMFOREST/bin/activate
 
 ```
 Run script by typing
